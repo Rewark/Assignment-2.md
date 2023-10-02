@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+    font-family: Helvetica;
+}
+
+*{
+    box-sizing: border-box; 
+}
+
+section {
+ background-color: #a6a6a6;
+ border: 2px solid black;
+ margin: 10px;
+}
+
+
+#p1 {
+    background-color: lightcoral;
+    text-align: center;
+    font-family: Franklin Gothic Medium;
+    width: 30%;
+    margin-top: 0px;
+    float: right;
+    border: 2px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    font-size: large;
+}
+
+#p2 {
+    background-color: #bd2828; 
+    text-align: center;
+    font-family: Franklin Gothic Medium;
+    color: white;
+    width: 30%;
+    margin-top: 0px;
+    float: right;
+    border: 2px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    font-size: large;
+}
+
+#p3 {
+    background-color: bisque; 
+    text-align: center;
+    font-family: Franklin Gothic Medium;
+    width: 30%;
+    margin-top: 0px;
+    float: right;
+    border: 2px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    font-size: large;
+}
+
+#p4,#p5,#p6 {
+    font-family: Arial;
+    margin: 10px;
+}
+
+.row {
+    width: 100%;
+}
+
+@media (min-width: 992px){
+   .col-lg-4{
+    float: left;
+   }
+   .col-lg-4 {
+    width: 33%;
+   }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+     .col-md-6, .col-md-6-2 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-6-2 {
+        width: 100%;
+    }
+ 
+}
+
+@media (max-width: 767px){
+    .col-sm-12 {
+        float: left;
+
+    }
+    .col-sm-12 {
+        width: 100%;
+        
+    }
+}
